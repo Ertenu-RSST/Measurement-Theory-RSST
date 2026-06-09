@@ -1,0 +1,8 @@
+Table IV note.
+RSST structural saturation classification is assigned at the indicator-region level. D_region denotes empirical density inside the manual region. G_manual denotes available metric granularity across the full official manual region, whereas G_occupied denotes available metric granularity across the actually occupied observed span. S = D/G indexes density-granularity imbalance, and R = 1/S indexes resolvable distinction.
+
+S > 1 alone is not treated as sufficient evidence of structural saturation. Structural saturation is classified as present only when density-granularity imbalance is accompanied by observable compression evidence, including high tie burden, reduced unique-score representation, restricted occupied width, low regional IQR, or a dense/restricted region pattern.
+
+K′ is reported only as the preservation parameter for the later Ω / RSST_Score refinement module. It is not used to classify structural saturation in Stage 1. Under Δmin AUTO mode, integer-valued clinical score metrics use K′ = 10000, whereas decimal/fixed-precision metrics use K′ = 1000000 to maintain scale-faithful preservation under finer empirical step sizes.
+
+Table IV does not apply Omega (Ω), does not derive or report RSST_Score, and does not determine refinement eligibility. It identifies whether a structurally saturated indicator-region should proceed to a separate auxiliary-structure and refinement-eligibility assessment. Table V complements Table IV by evaluating regional structural heterogeneity in the same cutoff/reference regions; Table V does not replace, modify, or reduce the role of Table IV.

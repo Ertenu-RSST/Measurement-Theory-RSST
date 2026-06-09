@@ -1,0 +1,8 @@
+Table V note.
+Regional structural heterogeneity is evaluated inside the same manual/reference regions used in Tables III and IV. Table IV remains the primary RSST structural saturation classification. Table V does not replace Table IV and does not change any Table IV saturation classifications. Instead, Table V complements Table IV by examining regional median position, KDE peak position, peak-to-median separation, occupied width, unique-score representation, median-split lower/upper asymmetry, regional normality, regional-versus-whole-indicator normality mismatch, and exploratory KDE peak count.
+
+Structural heterogeneity is not inferred from any single statistic. It is classified only when multiple dispersion/asymmetry signals converge. A region may be structurally saturated and structurally heterogeneous at the same time; such cases are labeled as mixed structural patterns. This means that apparent homogeneity from score compression may coexist with clinically meaningful internal dispersion.
+
+The “Heterogeneity evidence flags present” column lists only positive heterogeneity evidence flags; criteria not listed were not met for that region.
+
+Regional normality diagnostic rule: Regional D'Agostino-Pearson normality testing is computed only for regions with n >= 20. For regions with n < 20, the D'Agostino-Pearson p-value is reported as missing/not assessed to avoid the SciPy kurtosis-test warning and to preserve conservative regional interpretation. Shapiro-Wilk remains the primary regional normality check when 3 <= n <= 5000.

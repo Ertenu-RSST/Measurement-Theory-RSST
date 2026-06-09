@@ -1,0 +1,33 @@
+{
+  "title": "RSST/SFORR Supplementary Code and Synthetic N=347 Public Code-Execution Package",
+  "upload_type": "software",
+  "publication_date": "2026-06-08",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Ertenu, Ali Nihat",
+      "affiliation": "Data Analyst, IT Project Manager, and Independent Researcher"
+    },
+    {
+      "name": "Ertenu, Deniz Dilara",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "description": "Public synthetic N=347 code-execution package for the RSST/SFORR supplementary computational suite. The archive includes Supplementary File S1 for Stage-1 structural saturation diagnostics, Supplementary File S2 for ITEM_LEVEL_GRM-based GRM_RSST_Score derivation and reporting, and Supplementary File S3 for GRM refit-bootstrap ordering-stability diagnostics. The synthetic data are provided only for public code execution, output-structure verification, and workflow inspection. They are not the empirical N=103 caregiver dataset used in the manuscript's empirical analyses and should not be interpreted as participant-level empirical evidence, clinical evidence, or manuscript results.",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "Regional Score Saturation Theory",
+    "RSST",
+    "SFORR",
+    "bounded measurement",
+    "ordinal refinement",
+    "Omega operator",
+    "K-prime preservation",
+    "Metric Silence",
+    "graded response model",
+    "mirt",
+    "synthetic data",
+    "reproducibility"
+  ]
+}

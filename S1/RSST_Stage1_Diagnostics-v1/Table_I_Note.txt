@@ -1,0 +1,2 @@
+Table I note.
+Threshold-based status is defined exclusively by the Cutoff or Threshold/Reference values supplied in the Cutoff sheet. No percentile anchors, derived sub-bands, or additional cutoffs are created at this stage. This table describes only where the observed cohort falls relative to the supplied cutoff/reference boundaries.

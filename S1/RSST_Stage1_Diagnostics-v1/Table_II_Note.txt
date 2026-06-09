@@ -1,0 +1,4 @@
+Table II note.
+Data-health and assumption diagnostics are descriptive only. Clinically meaningful observations are retained. Outliers are flagged but not removed, winsorized, or normalized. Normality was assessed with Shapiro-Wilk and, when sample size permitted, the D'Agostino-Pearson omnibus normality test. Homogeneity of variance is not assessed at this indicator-only stage because it requires a grouping variable and belongs to the later inferential layer.
+
+This table should also be read as a structural warning layer. High tie burden, strong threshold concentration, elevated Compression Index (CI), or elevated Threshold Density Ratio (TDR) may indicate that visible score differentiation is weakening within bounded score regions. These quantities do not establish saturation by themselves, but they help identify where a later saturation-focused analytic step may be needed.

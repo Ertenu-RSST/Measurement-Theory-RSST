@@ -1,0 +1,83 @@
+Indicator recommendations
+========================
+
+BDI-II | BDI-II
+- Manual status: Cutoff observations present (>=29)
+- Distribution is descriptively non-normal; clinically meaningful observations should still be retained.
+- Tie burden is substantial and may indicate weakening visible score resolution.
+- Compression Index is relatively elevated; the arithmetic center and the densest region of the distribution are noticeably separated.
+- Elevated manual regions can be descriptively reported; manual thresholds remain primary.
+- The elevated region shows a pattern potentially compatible with emerging saturation or apparent homogeneity.
+- RSST structural saturation status by manual region: Structurally saturated: 3.
+- At least one manual region is structurally saturated under RSST Stage 1 criteria; auxiliary-structure assessment is required before any Ω-based refinement.
+- Manual thresholds remain primary; CI, TDR, KDE, tie burden, and regional structure summaries are descriptive only.
+- This first-stage output does not solve saturation directly; it identifies where a later saturation-focused step may be needed.
+
+MM-CGI-SF | MMCGI-HSL
+- Manual status: Threshold/Reference observations present (>=25.2)
+- Distribution is descriptively non-normal; clinically meaningful observations should still be retained.
+- Tie burden is substantial and may indicate weakening visible score resolution.
+- Elevated manual regions can be descriptively reported; manual thresholds remain primary.
+- The elevated region shows a pattern potentially compatible with emerging saturation or apparent homogeneity.
+- RSST structural saturation status by manual region: Structurally saturated: 1.
+- At least one manual region is structurally saturated under RSST Stage 1 criteria; auxiliary-structure assessment is required before any Ω-based refinement.
+- Manual thresholds remain primary; CI, TDR, KDE, tie burden, and regional structure summaries are descriptive only.
+- This first-stage output does not solve saturation directly; it identifies where a later saturation-focused step may be needed.
+
+MM-CGI-SF | MMCGI-PSB
+- Manual status: Threshold/Reference observations present (>=25.5)
+- Distribution is descriptively non-normal; clinically meaningful observations should still be retained.
+- Tie burden is substantial and may indicate weakening visible score resolution.
+- Compression Index is relatively elevated; the arithmetic center and the densest region of the distribution are noticeably separated.
+- Elevated manual regions can be descriptively reported; manual thresholds remain primary.
+- The elevated region shows a pattern potentially compatible with emerging saturation or apparent homogeneity.
+- RSST structural saturation status by manual region: Structurally saturated: 1.
+- At least one manual region is structurally saturated under RSST Stage 1 criteria; auxiliary-structure assessment is required before any Ω-based refinement.
+- Manual thresholds remain primary; CI, TDR, KDE, tie burden, and regional structure summaries are descriptive only.
+- This first-stage output does not solve saturation directly; it identifies where a later saturation-focused step may be needed.
+
+MM-CGI-SF | MMCGI-WFI
+- Manual status: Threshold/Reference observations present (>=21.8)
+- Distribution is descriptively non-normal; clinically meaningful observations should still be retained.
+- Tie burden is substantial and may indicate weakening visible score resolution.
+- Compression Index is relatively elevated; the arithmetic center and the densest region of the distribution are noticeably separated.
+- Elevated manual regions can be descriptively reported; manual thresholds remain primary.
+- The elevated region shows a pattern potentially compatible with emerging saturation or apparent homogeneity.
+- RSST structural saturation status by manual region: Structurally saturated: 1.
+- At least one manual region is structurally saturated under RSST Stage 1 criteria; auxiliary-structure assessment is required before any Ω-based refinement.
+- Manual thresholds remain primary; CI, TDR, KDE, tie burden, and regional structure summaries are descriptive only.
+- This first-stage output does not solve saturation directly; it identifies where a later saturation-focused step may be needed.
+
+PANAS | PANAS-NA
+- Manual status: Threshold/Reference observations present (>=24)
+- Distribution is descriptively non-normal; clinically meaningful observations should still be retained.
+- Tie burden is substantial and may indicate weakening visible score resolution.
+- Elevated manual regions can be descriptively reported; manual thresholds remain primary.
+- The elevated region shows a pattern potentially compatible with emerging saturation or apparent homogeneity.
+- RSST structural saturation status by manual region: Structurally saturated: 1.
+- At least one manual region is structurally saturated under RSST Stage 1 criteria; auxiliary-structure assessment is required before any Ω-based refinement.
+- Manual thresholds remain primary; CI, TDR, KDE, tie burden, and regional structure summaries are descriptive only.
+- This first-stage output does not solve saturation directly; it identifies where a later saturation-focused step may be needed.
+
+PANAS | PANAS-PA Severity_Aligned
+- Manual status: Threshold/Reference observations present (>=32.9)
+- Distribution is descriptively non-normal; clinically meaningful observations should still be retained.
+- Tie burden is substantial and may indicate weakening visible score resolution.
+- Elevated manual regions can be descriptively reported; manual thresholds remain primary.
+- The elevated region shows a pattern potentially compatible with emerging saturation or apparent homogeneity.
+- RSST structural saturation status by manual region: Structurally saturated: 1.
+- At least one manual region is structurally saturated under RSST Stage 1 criteria; auxiliary-structure assessment is required before any Ω-based refinement.
+- Manual thresholds remain primary; CI, TDR, KDE, tie burden, and regional structure summaries are descriptive only.
+- This first-stage output does not solve saturation directly; it identifies where a later saturation-focused step may be needed.
+
+ZBI | ZBI
+- Manual status: Cutoff observations present (>=61)
+- Distribution is descriptively non-normal; clinically meaningful observations should still be retained.
+- Tie burden is substantial and may indicate weakening visible score resolution.
+- Compression Index is relatively elevated; the arithmetic center and the densest region of the distribution are noticeably separated.
+- Elevated manual regions can be descriptively reported; manual thresholds remain primary.
+- The elevated region shows a pattern potentially compatible with emerging saturation or apparent homogeneity.
+- RSST structural saturation status by manual region: Structurally saturated: 2; Compression present; structural saturation not fully confirmed: 1.
+- At least one manual region is structurally saturated under RSST Stage 1 criteria; auxiliary-structure assessment is required before any Ω-based refinement.
+- Manual thresholds remain primary; CI, TDR, KDE, tie burden, and regional structure summaries are descriptive only.
+- This first-stage output does not solve saturation directly; it identifies where a later saturation-focused step may be needed.

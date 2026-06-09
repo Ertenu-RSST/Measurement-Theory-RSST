@@ -1,0 +1,4 @@
+Table III note.
+Manual-region structure is reported only inside supplied manual elevated regions. "Observed occupied start" and "Observed occupied end" describe where data actually occur inside the manual region. Region n, regional unique values, regional tie proportion, and regional IQR are reported directly. If a manual region contains fewer than 5 observations, the region is still reported, but descriptive interpretation is explicitly limited.
+
+The purpose of this table is to determine whether elevated official regions appear sparse, broadly occupied, densely repeated, or potentially compatible with emerging regional score saturation. Visible uniformity within an elevated region should not automatically be interpreted as true homogeneity.

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this RSST/SFORR supplementary code package, please cite it as below."
+title: "RSST/SFORR Supplementary Code and Synthetic N=347 Public Code-Execution Package"
+version: "1.0.0"
+date-released: "2026-06-08"
+type: software
+authors:
+  - family-names: "Ertenu"
+    given-names: "Ali Nihat"
+    email: "ertenuan@msn.com"
+    affiliation: "Data Analyst, IT Project Manager, and Independent Researcher"
+  - family-names: "Ertenu"
+    given-names: "Deniz Dilara"
+    affiliation: "Independent Researcher"
+keywords:
+  - "Regional Score Saturation Theory"
+  - "RSST"
+  - "SFORR"
+  - "bounded measurement"
+  - "ordinal refinement"
+  - "graded response model"
+  - "mirt"
+  - "synthetic data"
+  - "reproducibility"
+license: "MIT"
+abstract: >-
+  Public synthetic N=347 code-execution package for the RSST/SFORR supplementary
+  computational suite, including Supplementary Files S1, S2, and S3; synthetic
+  item-level inputs; expected output workbooks; and run logs. The synthetic data
+  are provided only for public code execution, output-structure verification, and
+  workflow inspection and are not the empirical caregiver dataset used in the
+  manuscript's empirical analyses.

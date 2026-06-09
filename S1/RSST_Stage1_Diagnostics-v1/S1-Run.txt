@@ -1,0 +1,39 @@
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+= RESTART: C:\Users\Preferred Customer\Desktop\RSST_SYN_N347\S1\RSST_Stage1_Diagnostics_v1.py
+Running with: C:\Program Files\Python310\pythonw.exe
+Loaded indicators from Cutoff sheet: 7
+- BDI-II | BDI-II | BDI_II_Score | cutoff/threshold values: 14; 20; 29
+- MM-CGI-SF | MMCGI-HSL | MMCGI_HSL_Score | cutoff/threshold values: 25.2
+- MM-CGI-SF | MMCGI-PSB | MMCGI_PSB_Score | cutoff/threshold values: 25.5
+- MM-CGI-SF | MMCGI-WFI | MMCGI_WFI_Score | cutoff/threshold values: 21.8
+- PANAS | PANAS-NA | PANAS_NA_Score | cutoff/threshold values: 24
+- PANAS | PANAS-PA Severity_Aligned | PANAS_PA_SeverityAligned_Score | cutoff/threshold values: 32.9
+- ZBI | ZBI | ZBI_Score | cutoff/threshold values: 21; 41; 61
+
+Saved outputs to: C:\Users\Preferred Customer\Desktop\RSST_SYN_N347\S1\RSST_Stage1_Diagnostics-v1
+Table I full: RSST_Stage1_Diagnostics-v1\Table_I_Manual_Threshold_Status_Full.xlsx
+Table II full: RSST_Stage1_Diagnostics-v1\Table_II_Data_Health_and_Assumption_Audit_Full.xlsx
+Table III full: RSST_Stage1_Diagnostics-v1\Table_III_Manual_Region_Structure_Full.xlsx
+Table IV full: RSST_Stage1_Diagnostics-v1\Table_IV_RSST_Structural_Saturation_Classification_Full.xlsx
+Table V full: RSST_Stage1_Diagnostics-v1\Table_V_Regional_Structural_Heterogeneity_Profile_Full.xlsx
+Figure 1: RSST_Stage1_Diagnostics-v1\Figure_1_Manual_Threshold_Occupancy.png
+Figure 2: RSST_Stage1_Diagnostics-v1\Figure_2_Data_Health_Heatmap.png
+Figure 3: RSST_Stage1_Diagnostics-v1\Figure_3_Manual_Region_Structure_Map.png
+Figure 4: RSST_Stage1_Diagnostics-v1\Figure_4_Regional_Heterogeneity_Map.png
+Executive summary: RSST_Stage1_Diagnostics-v1\Executive_Summary.txt
+Recommendations: RSST_Stage1_Diagnostics-v1\Indicator_Recommendations.txt
+Heterogeneity summary: RSST_Stage1_Diagnostics-v1\Regional_Heterogeneity_Summary.txt
+User guide: RSST_Stage1_Diagnostics-v1\RSST_Stage1_Diagnostics_User_Guide_v1.txt
+
+Table I preview:
+Instrument                 Indicator                    Data column  N non-missing                           Cutoff/Threshold status  Number of supplied cutoff/threshold values Cutoff/Threshold values                                                                                                                                                                                                                                                                                  Manual rule Band 1 label Band 1 n (%) Band 2 label Band 2 n (%) Band 3 label Band 3 n (%) Band 4 label Band 4 n (%)
+    BDI-II                    BDI-II                   BDI_II_Score            347                Cutoff observations present (>=29)                                           3              14; 20; 29                                                                                                                                                                                       Official manual cutoff. BDI-II severity bands: minimal 0-13, mild 14-19, moderate 20-28, severe 29-63.          <14  154 (44.4%)    14 to <20   68 (19.6%)    20 to <29   78 (22.5%)         >=29   47 (13.5%)
+ MM-CGI-SF                 MMCGI-HSL                MMCGI_HSL_Score            347 Threshold/Reference observations present (>=25.2)                                           1                    25.2                                                                                                                                                                                                     MM-CGI HSL high-zone threshold: M+1SD = 20.2 + 5.0 = 25.2 (Marwit & Meuser 2005; n=292).        <25.2  280 (80.7%)       >=25.2   67 (19.3%)          NaN          NaN          NaN          NaN
+ MM-CGI-SF                 MMCGI-PSB                MMCGI_PSB_Score            347 Threshold/Reference observations present (>=25.5)                                           1                    25.5                                                                                                                                                                                                     MM-CGI PSB high-zone threshold: M+1SD = 20.2 + 5.3 = 25.5 (Marwit & Meuser 2005; n=292).        <25.5  274 (79.0%)       >=25.5   73 (21.0%)          NaN          NaN          NaN          NaN
+ MM-CGI-SF                 MMCGI-WFI                MMCGI_WFI_Score            347 Threshold/Reference observations present (>=21.8)                                           1                    21.8                                                                                                                                                                                                     MM-CGI WFI high-zone threshold: M+1SD = 16.6 + 5.2 = 21.8 (Marwit & Meuser 2005; n=292).        <21.8  235 (67.7%)       >=21.8  112 (32.3%)          NaN          NaN          NaN          NaN
+     PANAS                  PANAS-NA                 PANAS_NA_Score            347   Threshold/Reference observations present (>=24)                                           1                      24                                                                      No official PANAS cutoff. Threshold 24.0 = M+1SD of NA norms (M=18.1, SD=5.9; Watson, Clark, & Tellegen, 1988, Table 1, in general instructions, n=660). Externally derived normative reference; not a clinical cutoff.          <24  201 (57.9%)         >=24  146 (42.1%)          NaN          NaN          NaN          NaN
+     PANAS PANAS-PA Severity_Aligned PANAS_PA_SeverityAligned_Score            347 Threshold/Reference observations present (>=32.9)                                           1                    32.9 No official PANAS cutoff. Reverse-scored PA [aligned = 60 - original PA(27.1)]. Threshold 32.9 = M+1SD of aligned norms (aligned M=25.0, SD=7.9; Watson, Clark, & Tellegen, 1988, Table 1, 'in general' instructions, n=660). Externally derived normative reference; not a clinical cutoff.        <32.9  225 (64.8%)       >=32.9  122 (35.2%)          NaN          NaN          NaN          NaN
+       ZBI                       ZBI                      ZBI_Score            347                Cutoff observations present (>=61)                                           3              21; 41; 61                                                                    Manual cutoff (≥61: Zarit & Zarit, 1987). Full 4-band classification: little/no 0-20, mild-moderate 21-40, moderate-severe 41-60, severe 61-88 (Zarit & Zarit, 1987; cited in Brown et al., 1990; Cummings et al., 2002).          <21    29 (8.4%)    21 to <41  124 (35.7%)    41 to <61  149 (42.9%)         >=61   45 (13.0%)
+*** End of program ***

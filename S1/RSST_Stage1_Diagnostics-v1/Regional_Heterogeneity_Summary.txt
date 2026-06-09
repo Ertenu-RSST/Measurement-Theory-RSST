@@ -1,0 +1,24 @@
+Regional heterogeneity summary
+==============================
+
+Structural heterogeneity status counts:
+- Mixed structural pattern - saturation plus heterogeneity: 9 region(s)
+- Structurally homogeneous/compressed dominant: 1 region(s)
+- Possible structural heterogeneity: 1 region(s)
+
+Mixed saturation + heterogeneity regions:
+- BDI-II | BDI-II | 14 to <20: evidence=4; flags=Broad occupied width; High regional IQR ratio; Median displaced from cutoff; Peak-median separation
+- BDI-II | BDI-II | 20 to <29: evidence=5; flags=Broad occupied width; High regional IQR ratio; Median displaced from cutoff; Peak-median separation; Possible multimodality
+- MM-CGI-SF | MMCGI-HSL | >=25.2: evidence=5; flags=Broad occupied width; High regional IQR ratio; Median displaced from Threshold/Reference; Peak-median separation; Possible multimodality
+- MM-CGI-SF | MMCGI-PSB | >=25.5: evidence=5; flags=Broad occupied width; High regional IQR ratio; Median displaced from Threshold/Reference; Peak-median separation; Possible multimodality
+- MM-CGI-SF | MMCGI-WFI | >=21.8: evidence=5; flags=Broad occupied width; High regional IQR ratio; Median displaced from Threshold/Reference; Peak-median separation; Possible multimodality
+- PANAS | PANAS-NA | >=24: evidence=4; flags=Broad occupied width; High regional IQR ratio; Peak-median separation; Possible multimodality
+- PANAS | PANAS-PA Severity_Aligned | >=32.9: evidence=3; flags=Broad occupied width; High regional IQR ratio; Lower/upper median-split asymmetry
+- ZBI | ZBI | 21 to <41: evidence=3; flags=Broad occupied width; High regional IQR ratio; Median displaced from cutoff
+- ZBI | ZBI | 41 to <61: evidence=4; flags=Broad occupied width; High regional IQR ratio; Median displaced from cutoff; Possible multimodality
+
+Structurally heterogeneous regions:
+- None
+
+Possible structural heterogeneity regions:
+- ZBI | ZBI | >=61: evidence=2; flags=Broad occupied width; High regional IQR ratio

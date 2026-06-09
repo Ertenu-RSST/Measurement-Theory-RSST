@@ -1,0 +1,39 @@
+Executive summary
+=================
+
+Indicators analyzed: 7
+
+Cutoff/Threshold status summary:
+- BDI-II | BDI-II: Cutoff observations present (>=29)
+- MM-CGI-SF | MMCGI-HSL: Threshold/Reference observations present (>=25.2)
+- MM-CGI-SF | MMCGI-PSB: Threshold/Reference observations present (>=25.5)
+- MM-CGI-SF | MMCGI-WFI: Threshold/Reference observations present (>=21.8)
+- PANAS | PANAS-NA: Threshold/Reference observations present (>=24)
+- PANAS | PANAS-PA Severity_Aligned: Threshold/Reference observations present (>=32.9)
+- ZBI | ZBI: Cutoff observations present (>=61)
+
+Top Compression Index indicators:
+- MM-CGI-SF | MMCGI-WFI: CI=0.182
+- ZBI | ZBI: CI=0.106
+- BDI-II | BDI-II: CI=0.103
+- MM-CGI-SF | MMCGI-PSB: CI=0.080
+- PANAS | PANAS-NA: CI=0.073
+
+RSST structural saturation status summary:
+- Structurally saturated: 10 indicator-region(s)
+- Compression present; structural saturation not fully confirmed: 1 indicator-region(s)
+
+Structurally saturated indicator-regions:
+- BDI-II | BDI-II | 14 to <20: S_occupied=11.333, flags=High tie burden; Reduced unique-score representation; Dense/restricted region pattern
+- BDI-II | BDI-II | 20 to <29: S_occupied=8.667, flags=High tie burden; Reduced unique-score representation; Dense/restricted region pattern
+- BDI-II | BDI-II | >=29: S_occupied=3.357, flags=High tie burden; Reduced unique-score representation; Low regional IQR; Dense/restricted region pattern
+- MM-CGI-SF | MMCGI-HSL | >=25.2: S_occupied=16.750, flags=High tie burden; Reduced unique-score representation; Dense/restricted region pattern
+- MM-CGI-SF | MMCGI-PSB | >=25.5: S_occupied=18.250, flags=High tie burden; Reduced unique-score representation; Dense/restricted region pattern
+- MM-CGI-SF | MMCGI-WFI | >=21.8: S_occupied=14.000, flags=High tie burden; Reduced unique-score representation; Dense/restricted region pattern
+- PANAS | PANAS-NA | >=24: S_occupied=6.952, flags=High tie burden; Reduced unique-score representation; Dense/restricted region pattern
+- PANAS | PANAS-PA Severity_Aligned | >=32.9: S_occupied=8.714, flags=High tie burden; Reduced unique-score representation; Dense/restricted region pattern
+- ZBI | ZBI | 21 to <41: S_occupied=6.200, flags=High tie burden; Reduced unique-score representation; Dense/restricted region pattern
+- ZBI | ZBI | 41 to <61: S_occupied=7.450, flags=High tie burden; Reduced unique-score representation; Dense/restricted region pattern
+
+Manual regions with n < 5:
+- None

@@ -1,0 +1,14 @@
+Pipeline note.
+This program is a manual-threshold-first, Stage 1 structural diagnostic report. It does not create new cutoffs and does not replace official manual interpretation. Manual bands are generated only from the cutoff values supplied in the workbook's Cutoff sheet.
+
+The purpose of this program is twofold. First, it determines where the observed data fall relative to the supplied Cutoff or Threshold/Reference boundaries. Second, it identifies whether the observed score structure shows clustering, repetition, compression, or apparent homogeneity that may be compatible with emerging regional score saturation.
+
+This dynamic version supports one, two, three, four, or more supplied cutoffs for each indicator. For k supplied values, the program creates k+1 manual bands: <c1, c1 to <c2, ..., >=ck. Elevated manual regions are all regions at or above the first supplied cutoff.
+
+This program includes an RSST structural saturation classification layer. For each indicator-region, the program computes empirical density (D), available regional granularity (G), saturation indices (S = D/G), resolvable distinction (R = 1/S), and observable compression markers. Structural saturation is classified only when density-granularity imbalance is accompanied by observable compression evidence. Table IV is the primary RSST structural saturation table and remains intact.
+
+This program does not apply Omega (Ω), does not derive or report RSST_Score, and does not determine refinement eligibility. Refinement eligibility requires a separate auxiliary-structure and refinement-eligibility assessment using item-level or eligible proxy-indicator information.
+
+K′ is reported only as the preservation parameter for the later Omega / RSST_Score refinement module. It is not used to classify structural saturation in Stage 1. Under Δmin AUTO mode, integer-valued clinical score metrics use K′ = 10000, whereas decimal/fixed-precision metrics use K′ = 1000000 to maintain scale-faithful preservation under finer empirical step sizes.
+
+All additional quantities, including KDE peak, Compression Index (CI), Threshold Density Ratio (TDR), tie burden, outlier flags, regional structure summaries, RSST structural saturation outputs, and regional heterogeneity outputs, are descriptive/diagnostic only and do not replace manual interpretation. Table V complements Table IV by evaluating whether the same cutoff/reference regions also contain regional structural heterogeneity.

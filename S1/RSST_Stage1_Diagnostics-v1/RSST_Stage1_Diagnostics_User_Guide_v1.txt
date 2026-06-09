@@ -1,0 +1,56 @@
+RSST_Stage1_Diagnostics.py
+User Guide and Variable Directory
+=================================
+
+This program is a manual-threshold-first, Stage 1 structural diagnostic report.
+
+Its role is to:
+- read Cutoff or Threshold/Reference values from the workbook's Cutoff sheet,
+- preserve the input-defined Cutoff or Threshold/Reference interpretation,
+- describe the structure of the observed data,
+- identify clustering, repetition, compression, threshold concentration, and possible Metric Silence risk,
+- and help detect where visible score uniformity may be masking retained heterogeneity.
+
+This Stage 1 module is designed to take an initial structural "X-ray" of the data. It evaluates whether bounded observed-score regions show evidence of local compression, saturation, tie burden, threshold concentration, or loss of local ordinal distinguishability. It does not authorize Ω-based refinement, does not apply Ω, and does not derive or report RSST_Score.
+
+This version is dynamic and scale-agnostic. Any dataset with the same workbook
+structure can be analyzed if:
+- the Data sheet contains the score columns,
+- the Cutoff sheet contains matching score-column headers,
+- each score column has at least one Cutoff or Threshold/Reference value,
+- and each score column has a Min/Max scale definition.
+
+Supported Cutoff or Threshold/Reference formats:
+- one value: 65
+- two values: 60/70
+- more than two values: 10/20/30 or separate Cutoff 1, Cutoff 2, Cutoff 3 rows
+
+For k supplied values, the program generates k+1 manual bands:
+<c1, c1 to <c2, ..., >=ck.
+
+Cutoff values remain primary when supplied; Threshold/Reference values are used when Cutoff is empty.
+Observed data remain intact.
+All additional metrics are descriptive only.
+
+Key metrics:
+- Regional structural heterogeneity profile: median/peak position, regional normality, lower/upper median-split structure, and mixed saturation-plus-heterogeneity classification
+- Compression Index (CI): descriptive separation between the mean and the KDE peak
+- Threshold Density Ratio (TDR): descriptive density concentration in official threshold-defined regions
+- KDE Peak: most densely occupied score location
+- Tie Proportion: extent of repeated score values
+- Region pattern: structural description of elevated manual regions
+- D_region: empirical density inside the indicator-region
+- G_manual / G_occupied: available regional granularity under the observed metric step
+- S = D/G: RSST saturation index
+- R = 1/S: RSST resolvable distinction
+- K′ preservation setting: reported only as a recommended preservation setting for possible later Ω-based refinement; not used in Stage 1 structural saturation classification
+- RSST structural saturation status: indicator-region classification based on density-granularity imbalance plus observable compression evidence
+
+Omega (Ω) is not applied in this Stage 1 report. RSST_Score is not produced here.
+Structural saturation or compression does not by itself justify Ω-based refinement.
+Ω-based refinement requires a separate auxiliary-structure and refinement-eligibility assessment using item-level, component-level, or eligible proxy-indicator information.
+
+K′ is not used in Stage 1 structural saturation classification. It is reported only as a recommended preservation setting for a possible later Ω-based refinement module. The recommended K′ should be interpreted according to the native observed-score resolution, not merely according to whether a cutoff/reference boundary is expressed as an integer or decimal value.
+
+A visible score region can appear homogeneous without being truly homogeneous.
+This program helps identify where such apparent homogeneity may be occurring.
