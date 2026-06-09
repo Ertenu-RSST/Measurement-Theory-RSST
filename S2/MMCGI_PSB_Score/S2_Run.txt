@@ -1,0 +1,109 @@
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+= RESTART: C:\Users\Preferred Customer\Desktop\RSST_SYN_N347\S2\RSST-Scale-Faithful_Ordinal_Resolution_Refinement_SFORR_v1.py
+Detected ID column: Form_Nb
+Detected observed score column: MMCGI_PSB_Score
+Candidate item columns: ['MMCGI_PSB_Q1', 'MMCGI_PSB_Q2', 'MMCGI_PSB_Q10', 'MMCGI_PSB_Q16', 'MMCGI_PSB_Q17', 'MMCGI_PSB_Q18']
+Valid item columns for GRM: ['MMCGI_PSB_Q1', 'MMCGI_PSB_Q2', 'MMCGI_PSB_Q10', 'MMCGI_PSB_Q16', 'MMCGI_PSB_Q17', 'MMCGI_PSB_Q18']
+
+========================================================================
+RSST RUN SUMMARY
+========================================================================
+Input cases: 347
+ID column: Form_Nb
+Observed score column: MMCGI_PSB_Score
+Analysis mode: ITEM_LEVEL_GRM
+Mode reason: 6 item-level columns detected; item-level GRM A_aux used.
+
+A_aux framework:
+  A_aux = R mirt-derived GRM theta/factor-score ordering signal.
+  Note: theta/factor score is used as A_aux only; RSST_Score is not theta-scaled.
+
+K′ preservation-bound diagnostics:
+  K′ selection mode: PRESERVATION_BOUND
+  Final K′: 10000
+  Metric type: integer_or_unit_spaced
+  Δmin: 1.0
+  n_max: 36
+  k_gap: 946
+  k_mcid: 0
+  k_default_floor: 10000
+  Max Ω shift bound: 9.45945945945946e-05
+
+Ordinal distinguishability diagnostics:
+  Unique observed scores before RSST: 22
+  Unique RSST scores after RSST: 285
+  Largest tied cell before RSST: 36
+  Largest tied cell after RSST: 5
+  Ω applied: 345/347 (99.4%)
+
+Residual auxiliary-unresolved ties after RSST:
+  Residual tie groups: 49
+  Residual tied cases: 111
+  Largest residual tie group: 5
+  Observed score values with residual ties: 16
+  Audit sheets: GRM_Aux_unresolved_tie_audit; GRM_Aux_tie_by_score; GRM_Aux_tie_group_dist; GRM_Aux_unresolved_tie_cases
+
+Auxiliary ordering diagnostics:
+  Pearson A_aux–score r: 0.985613
+  Spearman A_aux–score ρ: 0.987268
+
+GRM / SILENT governance:
+  GRM eligibility status: PASSED
+  ITEM_LEVEL_GRM status: successfully applied
+  SILENT status: not_applicable
+  Note: SILENT mode was not activated because valid target-specific item-level responses reproduced the bounded target score and R mirt-derived GRM theta/factor-score was successfully used as A_aux.
+
+Output:
+  Workbook: MMCGI_PSB_Score\MMCGI_PSB_Score_RSST_output_v1.xlsx
+========================================================================
+
+
+Analysis complete.
+Mode used: ITEM_LEVEL_GRM
+K_prime used: 10000 (PRESERVATION_BOUND)
+All outputs written to: MMCGI_PSB_Score\MMCGI_PSB_Score_RSST_output_v1.xlsx
+********** End of program **********
+
+========================================================================
+POST-RUN RSST DIAGNOSTIC NOTICE
+========================================================================
+The RSST program completed successfully and generated the requested outputs.
+
+A diagnostic notice is provided because NumPy produced one or more expected, non-impacting messages during pathway-specific diagnostic summary calculation.
+
+Detected NumPy diagnostic message(s):
+  - Mean of empty slice
+
+Interpretation: In SILENT mode or partially unavailable diagnostic pathways, some item-level GRM-derived or comparison vectors may be intentionally unavailable. Computing descriptive diagnostics over such non-applicable empty or all-missing vectors can produce these NumPy messages.
+
+This notice does not mean SILENT mode was activated; it only means one or more non-applicable pathway-specific diagnostic vectors were empty or all-missing during summary calculation.
+
+These messages have no effect on the observed target score, GRM/SILENT governance, K-prime selection, or RSST_Score derivation and reporting.
+========================================================================
+
+********** End of POST-RUN DIAGNOSTIC NOTICE **********
+
+========================================================================
+POST-RUN GRM-REFERENCE RANK VALIDATION / COMPARISON WORKSPACE
+========================================================================
+Workbook updated: MMCGI_PSB_Score\MMCGI_PSB_Score_RSST_output_v1.xlsx
+Comparison workspace updated: GRM_reference_data.xlsx
+Workspace sheet: GRM_Reference_data
+Indicator: MMCGI_PSB
+Reference pathway: GRM
+GRM reference column: MMCGI_PSB_GRM_RSST_Score
+Candidate pathway: not_applicable_current_run_is_GRM_reference
+Candidate score column: not_applicable
+Added/updated sheets:
+  - GRM_ref_rank_summary
+  - GRM_ref_rank_cases
+  - GRM_ref_rank_cells
+  - GRM_ref_pairwise_audit
+GRM-reference validation status: not_evaluated
+Reason: Current run is ITEM_LEVEL_GRM; GRM reference score was written/updated in the comparison workspace, and candidate-pathway benchmarking is not applicable in the GRM-only 1+1 version.
+No RSST_Score values were rounded or modified for ranking.
+========================================================================
+********** End of POST-RUN **********
+
