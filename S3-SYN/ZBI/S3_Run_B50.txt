@@ -1,0 +1,20 @@
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+= RESTART: C:\Users\Preferred Customer\Desktop\RSST_SYN_N347\S3-SYN\RSST_GRM_refit_bootstrap_ordering_stability_diagnostic_program_v1.py
+Running R/mirt refit-bootstrap diagnostic...
+Input indicator: ZBI
+Bootstrap iterations: 50
+Input file: GRM-Target_with_Ordinal_Items_ZBI_Input.xlsx
+Output file: ZBI\ZBI_GRM_refit_bootstrap_ordering_stability_B50.xlsx
+C:\Program Files\R\R-4.5.3\bin\x64\Rscript.exe C:\Users\Preferred Customer\AppData\Local\Temp\rsst_grm_refit_bootstrap_d476fzn6\run_mirt_refit_bootstrap.R C:\Users\Preferred Customer\AppData\Local\Temp\rsst_grm_refit_bootstrap_d476fzn6\items.csv C:\Users\Preferred Customer\AppData\Local\Temp\rsst_grm_refit_bootstrap_d476fzn6\boot_indices.csv C:\Users\Preferred Customer\AppData\Local\Temp\rsst_grm_refit_bootstrap_d476fzn6 EAP 1000
+
+Done.
+Output workbook: C:\Users\Preferred Customer\Desktop\RSST_SYN_N347\S3-SYN\ZBI\ZBI_GRM_refit_bootstrap_ordering_stability_B50.xlsx
+Bootstrap iterations included in stability summary: 46/50
+Median overall pairwise agreement: 0.9446
+Mean overall pairwise agreement: 0.9431
+Cells below 0.80 median agreement: 2
+========================================================================
+************ End of Program. ************
+========================================================================

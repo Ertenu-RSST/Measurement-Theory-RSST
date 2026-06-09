@@ -1,0 +1,20 @@
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+= RESTART: C:\Users\Preferred Customer\Desktop\RSST_SYN_N347\S3-SYN\Supplementary_File_S3_RSST_GRM_refit_bootstrap_ordering_stability_diagnostic_program_v1.py
+Running R/mirt refit-bootstrap diagnostic...
+Input indicator: MMCGI_HSL
+Bootstrap iterations: 1000
+Input file: GRM-Target_with_Ordinal_Items_MMCGI_HSL_Input.xlsx
+Output file: MMCGI_HSL\MMCGI_HSL_GRM_refit_bootstrap_ordering_stability_B1000.xlsx
+C:\Program Files\R\R-4.5.3\bin\x64\Rscript.exe C:\Users\Preferred Customer\AppData\Local\Temp\rsst_grm_refit_bootstrap_te2l90de\run_mirt_refit_bootstrap.R C:\Users\Preferred Customer\AppData\Local\Temp\rsst_grm_refit_bootstrap_te2l90de\items.csv C:\Users\Preferred Customer\AppData\Local\Temp\rsst_grm_refit_bootstrap_te2l90de\boot_indices.csv C:\Users\Preferred Customer\AppData\Local\Temp\rsst_grm_refit_bootstrap_te2l90de EAP 1000
+
+Done.
+Output workbook: C:\Users\Preferred Customer\Desktop\RSST_SYN_N347\S3-SYN\MMCGI_HSL\MMCGI_HSL_GRM_refit_bootstrap_ordering_stability_B1000.xlsx
+Bootstrap iterations included in stability summary: 999/1000
+Median overall pairwise agreement: 0.9186
+Mean overall pairwise agreement: 0.9118
+Cells below 0.80 median agreement: 0
+========================================================================
+************ End of Program. ************
+========================================================================
